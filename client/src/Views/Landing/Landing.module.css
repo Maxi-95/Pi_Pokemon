@@ -1,0 +1,52 @@
+.fondo{
+    background-image: url("../../Img/fondo\ paint.png");
+    height: 970px;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(0.4rem);
+    background-position: center center;
+}
+
+.cubo{
+    display: flex;
+    background-color: aqua;
+    height: 480px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nombre{
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2016/06/wallpaper-pokemon-25.png");
+    background-size: cover;
+    background-position: center center;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio{
+    background-color: rgb(255, 0, 76);
+    width: 60%;
+    padding-top: 50px;
+    padding-left: 5%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.boton{
+    
+    padding-left:35px;
+    padding-right: 35px;
+    background-color: rgb(255, 0, 76);
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: aliceblue;
+}

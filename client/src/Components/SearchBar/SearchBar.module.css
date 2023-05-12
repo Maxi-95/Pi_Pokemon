@@ -1,0 +1,31 @@
+.buscador input{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0.15em solid rgb(255, 0, 0);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.boton{
+    margin-left: 10px;
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+}
+.detalle{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0.15em solid rgb(255, 135, 135);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

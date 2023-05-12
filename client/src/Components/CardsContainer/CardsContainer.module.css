@@ -1,0 +1,89 @@
+.contenedor_cartas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 1700px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+.divicion{
+    display: flex;
+    justify-content: center;
+    
+    height: 900px;
+    background-image: url("https://www.gratistodo.com/wp-content/uploads/2016/07/pokemon-wallpapers-22.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.acomodar{
+    background-color: rgb(238, 59, 104);
+    width: 190px;
+    padding-left: 15px;
+    height: 900px;
+    background: linear-gradient(rgba(255, 255, 255, 0.75),rgba(223, 223, 223, 0.75)); 
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px);
+    border-right: 0.4em solid red;  
+    display: flex; 
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.paginado{
+   width:1700px;
+   height: 94px;
+   background-color: #165564;
+    background: linear-gradient(rgba(255, 255, 255, 0.75),rgba(223, 223, 223, 0.75)); 
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 0.4em solid red; 
+}
+
+.orden h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: aliceblue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0.2em solid rgb(236, 111, 111);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.orden select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0.2em solid rgb(255, 0, 0);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.orden select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0.2em solid rgb(255, 0, 0);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

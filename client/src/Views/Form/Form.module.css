@@ -1,0 +1,165 @@
+.fondo{
+    background-image: url("https://preview.redd.it/xwr70s57vro51.jpg?width=640&crop=smart&auto=webp&s=931fd450bd378aeeaf7f49b93983774549898620");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.formulario{
+    width: 28%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.507),rgba(223, 223, 223, 0.75)); 
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 0.2em solid red;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+
+}
+.enderesar{
+    display: flex;
+    align-items: center;
+    height: 47px;
+    
+}
+.enderesar h4{
+    margin-left: 10px;
+}
+
+.labels{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 2px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0.15em solid rgb(255, 135, 135);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.input{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    border: 0.15em solid rgb(255, 0, 0);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+}
+
+.datosNumericos1{
+   
+    width: 300px;  
+}
+.datosNumericos2{
+    
+    width: 300px;  
+    padding-left: 10px; 
+}
+.carateristicasNumericas{
+    margin-top: 20px;
+    display: flex;
+    width: 410px;
+    color: black;
+    justify-content: center;
+}
+.datosNumericos input{
+    height: 15px;
+    width: 35px;
+    display: flex;
+}
+
+.error{
+    color: rgb(245, 127, 127);
+}
+
+.tipos{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-around;
+
+}
+.tipoLabel{
+    background-color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    border: 0.15em solid rgb(255, 0, 0);
+    border-radius: 7px;
+    margin: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.titulo{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 2px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    border: 0.15em solid rgb(255, 132, 132);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.caja{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 18px;
+}
+.caja label{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 2px;
+    padding-bottom: 7px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    border: 0.15em solid rgb(255, 132, 132);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.caja input{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    width: 45%;
+    border: 0.15em solid rgb(255, 0, 0);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+}
+
+.boton{
+    background-color: rgb(250, 158, 158);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border: 0.15em solid rgb(241, 0, 0);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

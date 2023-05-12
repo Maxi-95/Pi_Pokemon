@@ -1,0 +1,39 @@
+.barraDeNavegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 70px;
+    background-color: rgb(255, 89, 68);
+}
+
+.caja_botones{
+    display: flex;
+}
+
+.botonInicio{
+    margin-right: 50px;
+    padding-top:  10px;
+    padding-bottom:  10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    border: 0.15em solid rgb(255, 0, 0);
+
+
+}
+.botonForm{
+    margin-right: 50px;
+    padding-top:  10px;
+    padding-bottom:  10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0.15em solid rgb(255, 0, 0);
+
+    
+}

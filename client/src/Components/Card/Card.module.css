@@ -1,0 +1,124 @@
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    padding-top: 20px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    width: 200px;
+    height: 324px;
+    background-color: rgb(250, 117, 117);
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: 25px;
+    padding-top: 0px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0.2em solid rgb(228, 40, 40);
+}
+.datos{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.carta:hover{
+    transform: scale(1.05);
+}
+
+.imagen{
+    width: 37%;
+}
+
+.fondoImagen{
+    border: 0.1em solid rgb(228, 40, 40);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-image: url("../../Img/gondoPoke.png");
+    background-size: cover;
+    height: 150px;
+    width: 180px;
+}
+.nombre{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 7px;
+    border: 0.1em solid rgb(228, 40, 40);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.ataque{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    width: 50%;
+    margin-top: 7px;
+    border: 0.1em solid rgb(228, 40, 40);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.ataqueH4{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    width: 50%;
+    margin-top: 7px;
+    margin-left: 7px;
+    border: 0.1em solid rgb(228, 40, 40);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.tipo{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    width: 50%;
+    margin-top: 7px;
+    border: 0.1em solid rgb(228, 40, 40);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.tipoH4{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    width: 50%;
+    margin-top: 7px;
+    margin-left: 7px;
+    border: 0.1em solid rgb(228, 40, 40);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.caja{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tipos{
+    display: flex;
+    justify-content: space-between;
+}
